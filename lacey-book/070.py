@@ -1,0 +1,5 @@
+countries_tuple = ("Denmark", "Ukraine", "France", "Poland", "Norway")
+print(countries_tuple)
+print()
+country = int(input("Enter a number of the country "))
+print(country, "has index number", countries_tuple[country])
