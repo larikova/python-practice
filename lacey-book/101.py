@@ -7,12 +7,8 @@ name = input("Enter a name: ")
 region = input("Enter a region: ")
 print("The salary is", sales[name][region])
 
-for name in sales:
-    print((name), sales[name]["N"], sales[name]["S"], sales[name]["E"], sales[name]["W"])
-
-#
-# name2 = input("Enter a name: ")
-# region2 = input("Enter a region: ")
-# newSale = int(input("Enter a new salary: "))
-# sales[name2][region2] = newSale
-# print(sales[name2])
+name2 = input("Enter a name: ")
+region2 = input("Enter a region: ")
+newSale = int(input("Enter a new salary: "))
+sales[name2][region2] = newSale
+print((name2), sales[name2])
